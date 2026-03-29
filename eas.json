@@ -1,0 +1,33 @@
+{
+  "cli": {
+    "version": ">= 12.0.0"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "brand-a-preview": {
+      "distribution": "internal",
+      "env": {
+        "BRAND": "brand-a"
+      }
+    },
+    "brand-a-production": {
+      "env": {
+        "BRAND": "brand-a"
+      }
+    },
+    "brand-b-preview": {
+      "distribution": "internal",
+      "env": {
+        "BRAND": "brand-b"
+      }
+    },
+    "brand-b-production": {
+      "env": {
+        "BRAND": "brand-b"
+      }
+    }
+  }
+}
